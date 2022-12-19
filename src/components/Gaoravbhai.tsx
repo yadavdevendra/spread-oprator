@@ -32,7 +32,7 @@ export default function Gaoravbhai() {
     tempInventorySettings["category_settings"] = {...data?.category_id};
     setInventorySettings({...tempInventorySettings });
 
-    console.log("tempInventorySettings",tempInventorySettings);
+    // console.log("tempInventorySettings",tempInventorySettings);
     
   };
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function Gaoravbhai() {
     let tempcategoryAndAttributesSettings = { ...inventorySettings };
     tempcategoryAndAttributesSettings["category_settings"]["primary_category"] = "devendra";
     setInventorySettings({ ...tempcategoryAndAttributesSettings });
-    console.log(tempcategoryAndAttributesSettings, "tempcategoryAndAttributesSettings")
+    // console.log(tempcategoryAndAttributesSettings, "tempcategoryAndAttributesSettings")
   };
   return (
     <div className="App">
