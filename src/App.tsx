@@ -1,12 +1,11 @@
-import React from 'react'
 import Gaoravbhai from './components/Gaoravbhai'
 import Task from './components/Task'
 
 const App = () => {
   return (
-    <div>
+    <div style={{display:"flex",justifyContent:"space-between"}}>
       <Gaoravbhai/>
-       {/* <Task/> */}
+       <Task/>
     </div>
   )
 }
